@@ -1,0 +1,11 @@
+.Carousel {
+  padding: 4em 0;
+}
+.Carousel .Item {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 6px var(--violetColor);
+  text-align: center;
+  margin: 0.5em !important;
+  display: block;
+  width: fit-content !important;
+}

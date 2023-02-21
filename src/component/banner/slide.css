@@ -1,0 +1,39 @@
+@import "react-slideshow-image/dist/styles.css";
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 550px;
+}
+
+.each-slide span {
+  padding: 20px;
+  /* background: #efefef; */
+  color: #b9ffec;
+  text-align: center;
+  text-shadow: 0 0 6px #4de8bf;
+  font-weight: 700;
+  line-height: 1.7;
+  font-size: 3em;
+}
+button.connectBtn {
+  padding: 0.3em 0.5em;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  background: linear-gradient(90deg, #7f54c1, #6b8cc0);
+  font-size: 0.5em;
+  font-style: italic;
+  font-weight: 700;
+  margin: 2em 0;
+  text-shadow: 2px 2px 5px #313131;
+}
+button.connectBtn:hover {
+  text-shadow: 2px 1px 2px #4de8bf;
+  box-shadow: -2px -2px 0 2px #4de8bf;
+}
+
+.slider-image {
+  width: 416px;
+  height: 416px;
+}

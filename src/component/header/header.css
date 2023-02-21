@@ -1,0 +1,38 @@
+.header .logoBrand {
+  width: 150px;
+}
+.header a.nav-link {
+  color: #fff !important;
+}
+.header a.nav-link:hover {
+  color: #b9ffec !important;
+}
+.header nav .nav-link {
+  margin: 0 1em;
+}
+.header nav .joinBtn {
+  padding: 0.3em 0.5em;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  background: linear-gradient(to bottom right, #7f54c1, #6b8cc0);
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px grey;
+  margin: 0 0.3em;
+  border-left: 4px solid #000;
+  text-decoration: none;
+}
+.header nav .joinBtn:hover {
+  border-left: 4px solid #4de8bf;
+  text-shadow: 2px 1px 1px #4de8bf;
+}
+.header nav .socialLink {
+  border: 1px solid #7f54c1;
+  padding: 0.1em;
+  display: inline-block;
+}
+.header nav .socialLink:hover {
+  background-color: #7f54c1;
+}
